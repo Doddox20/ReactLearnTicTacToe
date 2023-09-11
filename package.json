@@ -1,0 +1,28 @@
+{
+  "name": "morpion-node-react",
+  "version": "1.0.0",
+  "description": "learn node js and react",
+  "main": "/index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "build": "webpack"
+  },
+  "author": "Dorian",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-react": "^7.18.0",
+    "babel-loader": "^8.2.3",
+    "express": "^4.18.2",
+    "react": "^17.0.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "nodemon": "^3.0.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
